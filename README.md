@@ -4,6 +4,8 @@
 
 Welcome to Find My Market! This repo is the backend that our app uses to store it's users and their favorites.
 
+Utilizing data from the project team's already built GraphQL USDA API, this backend combines that data with registered users to make this application a usable reality.
+
 ## Technology & Framework
 
 The API for Find My Market was built in python using the [FastAPI](https://pypi.org/project/fastapi/) framework. We used [Pydantic](https://pydantic-docs.helpmanual.io/#example) for model definition, [SQLAlchemy](https://www.sqlalchemy.org/) as our orm, [Postgres](https://www.postgresql.org/) as our database, and [Pytest](https://docs.pytest.org/en/stable/) as our testing framework. Find My Market is hosted on Heroku, and we used TravisCI for contiunous integration. You can view the swagger docs of this API's endpoints [here](https://find-my-market-api.herokuapp.com/docs).
